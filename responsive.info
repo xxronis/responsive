@@ -27,7 +27,7 @@ dependencies[] = rdf
 
 dependencies[] = metatag
 dependencies[] = ctools
-dependencies[] = cck
+;dependencies[] = cck
 dependencies[] = menu_block
 dependencies[] = admin_menu
 dependencies[] = admin_menu_toolbar
