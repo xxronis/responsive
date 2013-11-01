@@ -436,4 +436,8 @@ function responsive_install() {
     ->execute();
   variable_set('admin_theme', 'seven');
   variable_set('node_admin_theme', '1');
+
+
+  variable_set('pathauto_transliterate', 1);
+  variable_set('site_mail', 'panagiotis@getreal.gr');
 }
