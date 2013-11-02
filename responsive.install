@@ -439,5 +439,5 @@ function responsive_install() {
 
 
   variable_set('pathauto_transliterate', 1);
-  variable_set('site_mail', 'panagiotis@getreal.gr');
+  // variable_set('site_mail', 'panagiotis@getreal.gr');
 }
