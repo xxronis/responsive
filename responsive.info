@@ -37,10 +37,10 @@ dependencies[] = devel
 dependencies[] = transliteration
 dependencies[] = pathauto
 dependencies[] = ckeditor
-;dependencies[] = jquery_ui
-;dependencies[] = jquery_ui
+dependencies[] = views
+dependencies[] = views_ui
 
 
 ; Information added by drupal.org packaging script on 2013-04-03
-version = "7.23"
+version = "7.26"
 project = "drupal"

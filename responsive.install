@@ -107,36 +107,36 @@ function responsive_install() {
       'pages' => '',
       'cache' => -1,
     ),
-    array(
-      'module' => 'user',
-      'delta' => 'login',
-      'theme' => $default_theme,
-      'status' => 1,
-      'weight' => 0,
-      'region' => 'sidebar_first',
-      'pages' => '',
-      'cache' => -1,
-    ),
-    array(
-      'module' => 'system',
-      'delta' => 'navigation',
-      'theme' => $default_theme,
-      'status' => 1,
-      'weight' => 0,
-      'region' => 'sidebar_first',
-      'pages' => '',
-      'cache' => -1,
-    ),
-    array(
-      'module' => 'system',
-      'delta' => 'powered-by',
-      'theme' => $default_theme,
-      'status' => 1,
-      'weight' => 10,
-      'region' => 'footer',
-      'pages' => '',
-      'cache' => -1,
-    ),
+    // array(
+    //   'module' => 'user',
+    //   'delta' => 'login',
+    //   'theme' => $default_theme,
+    //   'status' => 1,
+    //   'weight' => 0,
+    //   'region' => 'sidebar_first',
+    //   'pages' => '',
+    //   'cache' => -1,
+    // ),
+    // array(
+    //   'module' => 'system',
+    //   'delta' => 'navigation',
+    //   'theme' => $default_theme,
+    //   'status' => 1,
+    //   'weight' => 0,
+    //   'region' => 'sidebar_first',
+    //   'pages' => '',
+    //   'cache' => -1,
+    // ),
+    // array(
+    //   'module' => 'system',
+    //   'delta' => 'powered-by',
+    //   'theme' => $default_theme,
+    //   'status' => 1,
+    //   'weight' => 10,
+    //   'region' => 'footer',
+    //   'pages' => '',
+    //   'cache' => -1,
+    // ),
     array(
       'module' => 'system',
       'delta' => 'help',
@@ -439,5 +439,6 @@ function responsive_install() {
 
 
   variable_set('pathauto_transliterate', 1);
-  // variable_set('site_mail', 'panagiotis@getreal.gr');
+  variable_set('site_mail', 'panagiotis@getreal.gr');
+  variable_set('update_notify_emails', 'panagiotis@getreal.gr');
 }
